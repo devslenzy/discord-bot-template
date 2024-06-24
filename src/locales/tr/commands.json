@@ -1,0 +1,8 @@
+{
+    "ping": {
+        "discord_latency": "Discord Gecikme Süresi",
+        "bot_latency": "Bot Gecikmesi",
+        "latency_information": "Gecikme Bilgileri",
+        "description": "Aşağıda botun gecikme bilgileri verilmiştir!"
+    }
+}
