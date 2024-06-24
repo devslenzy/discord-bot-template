@@ -18,31 +18,31 @@ TOKEN=BOT_TOKEN
 ## A sample command object
 ```js
 module.exports = {
-	name: "test", // Command name (required)
-	description: "This command is test command!", // Command description (required)
-	/**
-	 *
-	 * @param  {import("discord.js").ChatInputCommandInteraction}  interaction
-	 * @param  {import("discord.js").Client}  client
-	 */
-		run: async (client, interaction) => {
-				// ...
-	}
+    name: "test", // Command name (required)
+    description: "This command is test command!", // Command description (required)
+    /**
+     *
+     * @param  {import("discord.js").ChatInputCommandInteraction}  interaction
+     * @param  {import("discord.js").Client}  client
+     */
+    run: async (client, interaction) => {
+        // ...
+    }
 };
 ```
 
 ## A sample event object
 ```js
 module.exports = {
-	name: "ready", // Event name (required)
-	/**
-	 *
-	 * @param  {import("discord.js").ChatInputCommandInteraction}  interaction
-	 * @param  {import("discord.js").Client}  client
-	 */
-	run: async (client, interaction) => {
-			// ...
-	}
+    name: "ready", // Event name (required)
+    /**
+     *
+     * @param  {import("discord.js").ChatInputCommandInteraction}  interaction
+     * @param  {import("discord.js").Client}  client
+     */
+    run: async (client, interaction) => {
+        // ...
+    }
 };
 ```
 
