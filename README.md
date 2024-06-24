@@ -34,7 +34,7 @@ module.exports = {
 ## A sample event object
 ```js
 module.exports = {
-    name: "ready", // Event name (required)
+    name: "ready", // Event name (not required)
     /**
      *
      * @param  {import("discord.js").ChatInputCommandInteraction}  interaction
