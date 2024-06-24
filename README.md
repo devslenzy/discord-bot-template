@@ -13,7 +13,7 @@ TOKEN=BOT_TOKEN
 ```
 
 ### Entering data
--  **TOKEN**: Discord üzerinden aldığınız bot tokenini buraya gireceksiniz.
+-  **TOKEN**: You will enter the bot token you received on Discord here!
 
 ## A sample command object
 ```js
