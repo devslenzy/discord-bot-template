@@ -33,8 +33,10 @@ module.exports = {
 
 ## A sample event object
 ```js
+const { Events } = require("discord.js")
+
 module.exports = {
-    name: "ready", // Event name (not required)
+    name: Events.Ready, // Event name (not required)
     /**
      *
      * @param  {import("discord.js").ChatInputCommandInteraction}  interaction
