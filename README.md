@@ -14,7 +14,7 @@ TOKEN=BOT_TOKEN
 
 ### Entering data
 -  **TOKEN**: You will enter the bot token you received on Discord here!
--  **BOT_STATUS**: Determines the bot's special status!
+-  **BOT_STATUS**: Determines the discord bot special status!
 
 ## A sample command object
 ```js
