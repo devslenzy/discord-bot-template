@@ -10,6 +10,7 @@ yarn
 First, open the `.env` file to get the following information! 
 ```
 TOKEN=BOT_TOKEN
+BOT_STATUS=@devslenzy
 ```
 
 ### Entering data
