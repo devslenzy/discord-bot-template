@@ -1,6 +1,7 @@
 const { Client, Partials, IntentsBitField } = require("discord.js");
 const { default: chalk } = require("chalk");
 const { readdirSync } = require("fs");
+const { connect } = require("mongoose");
 const translationBackend = require("i18next-fs-backend");
 const i18next = require("i18next");
 require("dotenv").config();
@@ -58,3 +59,4 @@ readdirSync("./src/events").forEach((category) => {
 });
 
 client.login(process.env.TOKEN);
+connect(process.env.MONGO).then(() => console.log(chalk.green("[DATABASE]"), chalk.white("Connected to the database!")));
