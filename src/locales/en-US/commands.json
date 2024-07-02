@@ -4,5 +4,11 @@
         "bot_latency": "Bot Latency",
         "latency_information": "Latency Information",
         "description": "Below is the delay information of the bot!"
+    },
+    "create": {
+        "data_success": "Data created successfully!",
+        "data": "Data",
+        "data_error": "An error occurred while creating data!",
+        "error": "Error"
     }
 }
