@@ -4,5 +4,11 @@
         "bot_latency": "Bot Gecikmesi",
         "latency_information": "Gecikme Bilgileri",
         "description": "Aşağıda botun gecikme bilgileri verilmiştir!"
+    },
+    "create": {
+        "data_success": "Veri başarıyla oluşturuldu!",
+        "data": "Veri",
+        "data_error": "Veri oluşturulurken bir hata oluştu!",
+        "error": "Hata"
     }
 }
