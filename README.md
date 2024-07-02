@@ -11,11 +11,13 @@ First, open the `.env` file to get the following information!
 ```
 TOKEN=BOT_TOKEN
 BOT_STATUS=@devslenzy
+MONGO=MONGO_URI
 ```
 
 ### Entering data
 -  **TOKEN**: You will enter the bot token you received on Discord here!
 -  **BOT_STATUS**: Determines the discord bot special status!
+-  **MONGO**: Entered Mongo URI!
 
 ## A sample command object
 ```js
